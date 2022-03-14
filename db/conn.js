@@ -8,6 +8,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log(`Connected to ${process.env.URL}`);
+    console.log(`Connected  ${process.env.URL}`);
   })
   .catch((err) => console.log(err));
