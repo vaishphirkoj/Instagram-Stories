@@ -9,6 +9,7 @@ router.post(
   userController.unfollow
 );
 
+
 router.post("/userFollow", authorization.authorization, userController.follow);
 
 router.get("/userDetail", authorization.authorization, userController.getUser);
