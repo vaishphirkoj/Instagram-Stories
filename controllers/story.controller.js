@@ -115,6 +115,10 @@ const viewStory = async (req, res) => {
     // let list = viewsList.views;
     // const checkTokenId = list.find((elm) => elm == tokenId);
     // console.log(`this is find element from array ${checkTokenId}`);
+    
+      // let list = viewsList.views;
+    // const checkTokenId = list.find((elm) => elm == tokenId);
+    // console.log(`this is find element from array ${checkTokenId}`);
 
     // let updateViews = await Story.findOneAndUpdate(
     //   { _id: storyId },
