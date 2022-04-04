@@ -128,6 +128,7 @@ const viewStory = async (req, res) => {
   } catch (error) {
     console.log(error);
     return;
+
   }
 };
 
