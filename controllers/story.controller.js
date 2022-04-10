@@ -125,6 +125,7 @@ const viewStory = async (req, res) => {
     //   { $push: { views: tokenId } }
     // );
     // console.log(`${updateViews}`);
+
   } catch (error) {
     console.log(error);
     return;
