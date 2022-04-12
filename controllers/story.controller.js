@@ -133,4 +133,12 @@ const viewStory = async (req, res) => {
   }
 };
 
+// const viewStory = async (req, res) => {
+//   try {
+//     let tokenId = getToken(req.headers.authorization);
+//     console.log(tokenId);
+//     const { storyId } = req.body;
+//     const viewsList = await Story.find({ _id: storyId });
+//     console.log({ listing: viewsList.user });
+
 module.exports = { getStory, addStory, deleteStory, viewStory };
