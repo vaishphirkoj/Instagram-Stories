@@ -142,3 +142,5 @@ const viewStory = async (req, res) => {
 //     console.log({ listing: viewsList.user })
 
 module.exports = { getStory, addStory, deleteStory, viewStory };
+
+
