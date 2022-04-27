@@ -208,13 +208,15 @@ const unfollow = async (req, res) => {
     } else {
       res.json({
         message: `You are not following to ${profileId} user, So you can't click on unfollow.`,
-        // following: updateUnfollwing,
+        // following: updateUnfollwi
       });
     }
   } catch (error) {
     console.log(error);
   }
 };
+
+
 
 
 
