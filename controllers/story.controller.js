@@ -141,6 +141,9 @@ const viewStory = async (req, res) => {
 //     const viewsList = await Story.find({ _id: storyId });
 //     console.log({ listing: viewsList.user })
 
+
+
+
 module.exports = { getStory, addStory, deleteStory, viewStory };
 
 
