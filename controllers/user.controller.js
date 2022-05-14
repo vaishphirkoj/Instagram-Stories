@@ -51,6 +51,8 @@ const updateUser = async (req, res) => {
 
     // console.log(`${imgData} -- ${imgContent}`);
 
+
+
     const { username, email, password, fullname, bio, followers, following } =
       req.body;
     const obj = {
