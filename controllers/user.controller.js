@@ -4,8 +4,6 @@ const dotenv = require("dotenv");
 const bcrypt = require("bcrypt");
 dotenv.config("../.env");
 
-
-
 const getToken = (headerToken) => {
   try {
     let token = headerToken;
