@@ -30,6 +30,8 @@ const getUser = async (req, res) => {
 
 
 
+
+
 const updateUser = async (req, res) => {
   try {
     let tokenId = getToken(req.headers.authorization);
