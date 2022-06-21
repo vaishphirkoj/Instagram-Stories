@@ -16,6 +16,8 @@ const getToken = (headerToken) => {
 };
 
 
+
+
 const getUser = async (req, res) => {
   try {
     let tokenId = getToken(req.headers.authorization);
