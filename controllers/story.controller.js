@@ -138,12 +138,6 @@ const viewStory = async (req, res) => {
 
 
 
-
-
-
-
-
-
 // const viewStory = async (req, res) => {
 //   try {
 //     let tokenId = getToken(req.headers.authorization);
