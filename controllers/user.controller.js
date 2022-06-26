@@ -27,10 +27,7 @@ const getUser = async (req, res) => {
     console.log(err);
   }
 };
-
-
-
-
+]
 
 const updateUser = async (req, res) => {
   try {
